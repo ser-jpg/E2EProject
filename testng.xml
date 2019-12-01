@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="pageObject.Listeners"/>
+
+    </listeners>
+    <test name="Home Page">
+        <classes>
+            <class name="pageObject.HomePage"/>
+        </classes>
+
+     </test >
+    <test name="ValidateBar">
+        <classes>
+            <class name="pageObject.ValidateNavigationBar"/>
+
+        </classes>
+
+    </test>
+    <test name="ValidateTitle">
+        <classes>
+            <class name="pageObject.ValidateTitle"/>
+            <class name="rahul.AppTest"/>
+        </classes>
+
+    </test>
+
+
+
+
+</suite>
