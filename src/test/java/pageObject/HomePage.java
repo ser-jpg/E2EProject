@@ -29,6 +29,8 @@ public class HomePage extends Base {
         logPage.enterEmailAddress().sendKeys(email);
         logPage.enterPassword().sendKeys(password);
         logPage.clickLoginIn().click();
+        System.out.println(email);
+        System.out.println(password);
 
 
     }
